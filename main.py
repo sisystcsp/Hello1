@@ -11,4 +11,4 @@ def index():
 def pwd():
     path = os.getcwd()
     print(f'path={path}')
-    return path
+    return f'path={path}'
